@@ -4,6 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
+    "strat:dev": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
@@ -15,5 +17,8 @@
     "express": "^4.17.1",
     "firebase-admin": "^9.11.1",
     "mongodb": "^4.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
   }
 }
